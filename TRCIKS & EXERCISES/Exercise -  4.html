@@ -1,0 +1,69 @@
+<!--CHALLENGE: Creating a Multicolored Nav-bar By using Css Variables-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4 | Multicolor navbar</title>
+    <style>
+        /*:root {
+            --navcolor: #ffd480;
+             /* PINK THEME 
+            --border: skyblue;
+            --bgcolor: rgb(255, 204, 204);
+            --fontcolor: black;
+        }*/
+
+        :root {
+            --navcolor: #e172dd;
+            /*PURPLE THEME */
+            --border: rgb(246, 226, 99);
+            --bgcolor: rgb(176, 10, 241);
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 20px;
+            border: 2px solid var(--border);
+            border-radius: 90px;
+            background-color: var(--bgcolor);
+        }
+
+        a {
+            color: var(--fontcolor, white);
+            text-decoration: none;
+        }
+
+        ul a:hover {
+            background-color: var(--navcolor);
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a target="_blank" href="#">Home</a></li>
+            <li><a target="_blank" href="#">About</a></li>
+            <li><a target="_blank" href="#">Contact</a></li>
+            <li><a target="_blank" href="#">Sign in</a></li>
+        </ul>
+    </nav>
+    <nav>
+        <ul>
+            <li><a target="_blank" href="#">Home</a></li>
+            <li><a target="_blank" href="#">About</a></li>
+            <li><a target="_blank" href="#">Contact</a></li>
+            <li><a target="_blank" href="#">Sign in</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+<!--CHALLENGE : 3:  card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3 | Card Design</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @media only screen and (max-width:1500px) {
+            body{
+                background-color: #ff0000;
+            }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            margin-left: 190px;
+            height: 48vh;
+            width: 17%;
+            border: 2px solid rgb(214, 212, 212);
+            border-radius: 15px;
+            box-shadow: 2px 2px 5px 2px #e7a0a0;
+            background-color: rgb(249, 243, 243);
+            outline: auto;
+            outline-style: inset ;
+            text-overflow:ellipsis;
+            overflow:hidden;
+        } 
+        }
+
+        body {
+            background-color: rgba(58, 58, 58, 0.562);
+            
+        }
+
+        .parent {
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            margin-left: 380px;
+            height: 96vh;
+            width: 35%;
+            border: 2px solid rgb(214, 212, 212);
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px 5px #e7a0a0;
+            background-color: rgb(249, 243, 243);
+            outline: auto;
+            outline-style: inset ;
+            text-overflow:ellipsis;
+            overflow:hidden;
+
+
+        }
+
+        .card {
+            display:inline-block;
+            position: relative;
+            padding: 20px;
+            /* border: 2px solid red; */
+            height: fit-content;
+            border-radius: 15px;
+            
+        }
+
+        img {
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 15px;
+            width: 430px;
+            height: 320px;
+            /* margin-left: 7px; */
+            margin-bottom: 14px;
+        }
+
+        .captions-underimage {
+            border: 5px #888888;
+            border-style: ridge;
+            border-radius: 10px;
+            border-left: ridge;
+            border-right: ridge;
+            border-top: ridge;
+            border-bottom: ridge;
+            margin-left: 15px;
+        }
+
+        p {
+            display: inline;
+            margin: 50px;
+            margin-left: 70px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(114, 102, 102);
+        }
+
+        h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        button {
+            padding: 10px;
+            border-radius: 40px;
+            background-color: rgba(213, 243, 255, 0.907);
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+
+        a {
+            color: rgb(2, 178, 247);
+            text-decoration: none;
+        }
+
+        div ul {
+            display: inline-flex;
+            flex-direction: row;
+            list-style: none;
+            justify-content: space-between;
+            align-items: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            padding: 0px 0px 0px 14px
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="container">
+            <div class="card">
+                <img src="images/exercise3.jpg" alt="card design image" width="600px" height="300">
+
+                <span class="captions-underimage">
+                    Web Desiging
+                </span>
+                <span class="captions-underimage">
+                    Hosting
+                </span>
+
+                <div class="main-content">
+                    <h2>
+                        Web Devolepment
+                    </h2>
+                    <p>
+                        Web development can range from developing a simple single static page of plain text to complex
+                        web applications, electronic businesses, and social network services.HTML, CSS, JavaScript is great
+                        for budding front-end.
+                    </p>
+
+                    <div>
+                        <button>
+                            <a target="_blank" href="https://www.geeksforgeeks.org/">Read More..</a>
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>Designed by Manjunath</li>
+                        <li>Contact us:6302348787</li>
+                        <a target="_blank" href="https://github.com/manju047?tab=repositories"><i
+                                class="fa-brands fa-github"></i><span>Github</span></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
