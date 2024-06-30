@@ -16,10 +16,8 @@ CSS: For styling web pages.
 JavaScript: For adding interactivity to web pages.
 ## 🚀 Getting Started
 To get started with any of the projects in this repository
-## 🚀 Getting Started
-To get started with any of the projects in this repository
-## 📬 Contact 
 
+## 📬 Contact 
 If you have any questions or suggestions, feel free to reach out to us:
 
 📩 Email: manjupathadu@gmail.com
